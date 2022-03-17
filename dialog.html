@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.google.com/specimen/Sacramento?query=sacramento#standard-styles" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <!--global styling method-->
+    <style>
+        /*block of style declorations*/
+        #btn-close {
+            border-color: #b3ffd9;
+            border-width: 1px;
+            background-color: #ccffe6;
+            font-size: 15px;
+            color: #00994d;
+        }
+
+        .btn-answer {
+            font-size: 20px;
+            /*box model*/
+            padding: 20px;
+        }
+        .btn-rose {
+            color: rosybrown;
+            border-color: yellow;
+
+        }
+        .btn-blue {
+            color: greenyellow;
+            border-color: green;
+
+        }
+        #form-survey {
+            border: 1px solid aquamarine;  
+            padding: 20px;
+        }
+        #actions {
+            
+            /* border: 1px solid blue; */
+            
+            margin-top: 50px;
+
+        }
+        #actions-close {
+            text-align: right;
+
+        }
+        .service {
+            font-family: 'Sacramento', cursive;
+            font-size: 3rem;
+            color: #00C897;
+            line-height: 2;
+        }
+        .appreciating {
+            font-family: 'Merriweather', serif;
+            font-size: 1.5rem;
+            color: #c8008c;
+            line-height: 1;
+
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <!--HW1 refacto the #btn-close code-->
+
+    <form action="thankyou.html" id="form-survey">
+        <div id="actions-close">
+            <!--css target element:inline method-->
+            <button id="btn-close"
+                    type="Submit" formaction="sorry.html">                
+               
+            <!--
+                prop.       val.
+            -->         
+            x
+            </button>
+            <!--css target element-->
+        </div>
+        <!--HW: style with global style: font;color;line-height-->
+        <h1 class="service">Are you satisfied by our services</h1>
+        <p class="appreciating">Please take you time and appreciate....</p>
+        <!--Distance-->
+        <div id="actions">
+            <button class="btn-answer btn-rose">I am satisfied</button>
+            <button class="btn-answer btn-blue">I am not satisfied</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
